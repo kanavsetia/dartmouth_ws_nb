@@ -1,0 +1,147 @@
+/*
+Placeholder for custom user CSS
+
+mainly to be overridden in profile/static/custom/custom.css
+
+This will always be an empty file
+*/
+
+.test {
+  
+}
+
+.slide {
+  height:100%
+  max-height:800px;
+  min-height:800px;
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+
+.slide-title {
+  background-color: #005F2F;
+  color:white;
+  font-size:50px;
+  padding: 20px 20px 10px 20px;
+  line-height: 40px;
+  flex:0;
+}
+.slide-title .subtitle {
+  font-size: 30px !important;
+}
+
+.box-title {
+  background-color: #005F2F;
+  color:white;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  padding:5px 10px 5px 10px;
+  margin:30px 20px 0px 20px;
+  font-size: 35px;
+  flex:0;
+}
+.box-content {
+  background-color:#e6ede9;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 20px 20px 20px;
+  flex:0;
+}
+
+.cfont {
+  font-size:30px;
+}
+.cfont .list {
+  padding: 0px 40px 0px 40px;
+  flex:0; 
+}
+
+p {
+  font-size:30px;
+}
+p.body { padding: 0px 20px 0px 20px;flex:0;}
+p.green { color:#005F2F;   }
+p.center { text-align:center;   }
+p.right { text-align:right;}
+
+
+img {
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  flex-shrink:1;
+  flex-grow:0;
+}
+
+
+
+table {
+  width:95% !important;
+  border:none;
+  font-size:25px;
+  flex:0;
+}
+.table tbody tr:hover th {
+  background-color: transparent !important;
+}
+th {
+  border-bottom:1px solid #ddd;
+  font-weight:normal !important;
+  height:35px;
+  white-space:nowrap;
+}
+td {
+ white-space:nowrap; 
+ border-bottom: none;
+}
+
+.slide-title br {
+  margin:40px;
+}
+
+
+.footer {
+  display:flex;
+  flex:0;
+}
+.footer-item {
+  color:white;
+  width:33%;
+  font-size:20px;
+  text-align:center;
+}
+.footer-item.left {
+  background-color:#00311a;
+}
+.footer-item.center {
+  background-color:#004827;
+}
+.footer-item.right {
+  background-color:#006034;
+}
+
+
+.row {
+  display:flex;
+}
+.col-left-75 {
+  flex:75%;
+  flex-grow:3
+}
+.col-right-25 {
+  flex:25%;
+  flex-grow:1;
+}
+.col-left {
+    flex:50%;
+}
+.col-right {
+    flex:50%;
+}
+
+
+.text-center {
+  text-align:center;
+}
